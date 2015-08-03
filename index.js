@@ -1,20 +1,16 @@
 "use strict";
 
-var self = require("sdk/self");
-const {Cc, Ci, Cu} = require("chrome");
-
-Cu.import("resource:///modules/loop/MozLoopAPI.jsm");
-
-// first, disable the built-in Hello service, if present
-// FIXME - needs browser restart to really disable
-//require("sdk/preferences/service").set("loop.enabled", false);
-
 var { ToggleButton } = require("sdk/ui/button/toggle");
 var panels = require("sdk/panel");
 var self = require("sdk/self");
 
+const {Cc, Ci, Cu} = require("chrome");
+var LoopUI = Cu.import("resource:///modules/loop/MozLoopAPI.jsm");
+//var iframe = document.createElement("iframe");
+//LoopUI.injectLoopAPI(iframe);
+
 var button = ToggleButton({
-  id: "candy-button",
+  id: "hello-button",
   label: "Hello",
   icon: {
     "18": "./hello-icon-16.png",
@@ -25,7 +21,7 @@ var button = ToggleButton({
 });
 
 var panel = panels.Panel({
-  contentURL: "about:looppanel",
+  contentURL: "./panel.html",
   onHide: handleHide
 });
 

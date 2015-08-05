@@ -17,3 +17,4 @@ override chrome://browser/content/loop/shared/js/store.js chrome://hello/content
 override chrome://browser/content/loop/shared/js/roomStates.js chrome://hello/content/shared/js/roomStates.js
 override chrome://browser/content/loop/shared/js/fxOSActiveRoomStore.js chrome://hello/content/shared/js/fxOSActiveRoomStore.js
 override chrome://browser/content/loop/shared/js/activeRoomStore.js chrome://hello/content/shared/js/activeRoomStore.js
+override chrome://browser/content/loop/shared/img/beta-ribbon.svg#beta-ribbon chrome://hello/content/shared/img/beta-ribbon.svg#beta-ribbon

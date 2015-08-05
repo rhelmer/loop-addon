@@ -1,0 +1,3 @@
+content     hello     data/
+override chrome://browser/content/loop/conversation.html chrome://hello/content/panel.html
+override chrome://browser/content/loop/panel.html chrome://hello/content/panel.html

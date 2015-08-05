@@ -6,8 +6,8 @@ var self = require("sdk/self");
 
 const {Cc, Ci, Cu} = require("chrome");
 var LoopUI = Cu.import("resource:///modules/loop/MozLoopAPI.jsm");
-//var iframe = document.createElement("iframe");
-//LoopUI.injectLoopAPI(iframe);
+
+/*
 
 var button = ToggleButton({
   id: "hello-button",
@@ -36,3 +36,5 @@ function handleChange(state) {
 function handleHide() {
   button.state("window", {checked: false});
 }
+
+*/

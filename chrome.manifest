@@ -5,13 +5,11 @@ override chrome://browser/content/loop/shared/css/reset.css chrome://hello/conte
 override chrome://browser/content/loop/shared/css/common.css chrome://hello/content/shared/css/common.css
 override chrome://browser/content/loop/css/panel.css chrome://hello/content/css/panel.css
 override chrome://browser/content/loop/shared/css/contacts.css chrome://hello/content/css/contacts.css
-override chrome://browser/content/loop/libs/l10n.js chrome://hello/content/libs/l10n.js
 override chrome://browser/content/loop/shared/libs/lodash-3.9.3.js chrome://hello/content/shared/libs/lodash-3.9.3.js
 override chrome://browser/content/loop/shared/libs/backbone-1.2.1.js chrome://hello/content/shared/libs/backbone-1.2.1.js
 override chrome://browser/content/loop/shared/js/utils.js chrome://hello/content/shared/js/utils.js
 override chrome://browser/content/loop/shared/js/models.js chrome://hello/content/shared/js/models.js
 override chrome://browser/content/loop/shared/js/mixins.js chrome://hello/content/shared/js/mixins.js
-override chrome://browser/content/loop/shared/js/views.js chrome://hello/content/shared/js/views.js
 override chrome://browser/content/loop/shared/js/validate.js chrome://hello/content/shared/js/validate.js
 override chrome://browser/content/loop/shared/js/actions.js chrome://hello/content/shared/js/actions.js
 override chrome://browser/content/loop/shared/js/dispatcher.js chrome://hello/content/shared/js/dispatcher.js
@@ -19,6 +17,3 @@ override chrome://browser/content/loop/shared/js/store.js chrome://hello/content
 override chrome://browser/content/loop/shared/js/roomStates.js chrome://hello/content/shared/js/roomStates.js
 override chrome://browser/content/loop/shared/js/fxOSActiveRoomStore.js chrome://hello/content/shared/js/fxOSActiveRoomStore.js
 override chrome://browser/content/loop/shared/js/activeRoomStore.js chrome://hello/content/shared/js/activeRoomStore.js
-override chrome://browser/content/loop/js/contacts.js chrome://hello/content/shared/js/contacts.js
-override chrome://browser/content/loop/js/roomStore.js chrome://hello/content/shared/js/roomStore.js
-override chrome://browser/content/loop/js/panel.js chrome://hello/content/shared/js/panel.js

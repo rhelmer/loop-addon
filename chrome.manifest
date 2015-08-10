@@ -1,5 +1,5 @@
 content     hello     data/
-override chrome://browser/content/loop/conversation.html chrome://hello/content/panel.html
+override chrome://browser/content/loop/conversation.html chrome://hello/content/conversation.html
 override chrome://browser/content/loop/panel.html chrome://hello/content/panel.html
 override chrome://browser/content/loop/shared/css/reset.css chrome://hello/content/shared/css/reset.css
 override chrome://browser/content/loop/shared/css/common.css chrome://hello/content/shared/css/common.css
